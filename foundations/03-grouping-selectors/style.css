@@ -1,0 +1,12 @@
+.first {
+    background-color: black;color: white;
+}
+.second {
+    background-color: yellow;
+}
+.first, .second {
+    font-size: 28px; font-family: Helvetica "Times New Roman" sans-serif
+}
+/*Instead of .first, .second I had it as .first.second which
+is wrong because that applied for the elements that were for
+both the classes at the same time instead of any of them */
